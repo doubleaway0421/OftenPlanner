@@ -1,4 +1,4 @@
-import { View, Text } from 'react-native';
+import { View, Text, ScrollView } from 'react-native';
 /* 2024-10-15 
 홈 화면 레이아웃
 - 투두 리스트
@@ -8,9 +8,14 @@ import { View, Text } from 'react-native';
  */
 const Home = () => {
     return (
-        <View>
-            <Text>home페이지</Text>
-        </View>);
+        <>
+        <ScrollView>
+            <View>
+                <Text>home페이지</Text>
+            </View>
+        </ScrollView>
+        </>
+        );
 }
 
 export default Home
